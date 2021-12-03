@@ -1,14 +1,10 @@
-.Social {
-  height: 200px;
-  width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: black;
-  padding-top: 24px;
-  padding-left: 10px;
-  vertical-align: bottom;
-}
 
 a{
 display: block;
+}
+
+.Footer{
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
 }
