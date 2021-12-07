@@ -16,7 +16,7 @@ if(showNotice)
   return (
     <div className="CookieNotice">
       <div className="Warning">
-          <h1>This site doesn't use cookies/local storage to do anything.</h1>
+          <h1 className="text-warning">This site doesn't use cookies/local storage to do anything.</h1>
       </div>
     </div>
   );

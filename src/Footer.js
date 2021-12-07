@@ -1,13 +1,11 @@
 import './Footer.css';
-import GitHub from './GitHub_Logo_White.png';
-import LinkedIn from './LinkedIn-Blue-14@2x.png';
 
 function Footer() {
   return (
     <div className="Footer">
       <div className="Social">
-      <a href="https://github.com/webfurnace/homepage"><img src={GitHub} width="84px" height="30px" alt="Link to this webpage code on GitHub"/></a>
-      <a href="https://www.linkedin.com/in/ian-richard-75485b9/"><img src={LinkedIn} width="84px" height="22px" alt="Link to Ian Richard's profile on Linked In." /></a>
+      <h1 className="text-primary" ><a href="https://github.com/webfurnace/homepage" alt="Github Icon, linking to Developers Git hub repository for this website." ><i class="bi bi-github"></i>Github</a></h1>
+      <h1 className="text-primary" ><a href="https://www.linkedin.com/in/ian-richard-75485b9" alt="Linked in Icon, linking to Developers Linked in Profile.">Linked<i class="bi bi-linkedin"></i></a></h1>
       </div>
     </div>
   );

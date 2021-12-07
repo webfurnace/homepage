@@ -8,3 +8,7 @@ display: block;
   bottom: 0px;
   width: 100%;
 }
+
+a:link {
+  text-decoration: none;
+}
